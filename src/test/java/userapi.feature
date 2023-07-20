@@ -11,12 +11,12 @@ Scenario Outline: Creacion de un usuario en sign up
        * if (statusCode== 500) karate.log("Servidor no Responde")
   Examples:
   | username | password |
-  | RafaCalvad320 | YaeraHora |
-  | RafaCalvad325 | NoesHora |
-  | RafaCalvad324 | SiEsHora |
-  | RafaCalvad326 | Aveces456 |
-  | RafaCalvad327 | Aveces459 |
-  | RafaCalvad328 | Aveces450 |
+  | RafaCalvad720 | YaeraHora |
+  | RafaCalvad721 | NoesHora |
+  | RafaCalvad722 | SiEsHora |
+  | RafaCalvad723 | Aveces456 |
+  | RafaCalvad724 | Aveces459 |
+  | RafaCalvad725 | Aveces450 |
  
 Scenario Outline: Creacion de un usuario existente en sign up
   Given url "https://api.demoblaze.com"
@@ -32,12 +32,12 @@ Scenario Outline: Creacion de un usuario existente en sign up
   * if (statusCode== 500) karate.log("Servidor no Responde")
   Examples:
   | username | password |
-  | RafaCalvad320 | YaeraHora |
-  | RafaCalvad325 | NoesHora |
-  | RafaCalvad324 | SiEsHora |
-  | RafaCalvad326 | Aveces456 |
-  | RafaCalvad327 | Aveces459 |
-  | RafaCalvad328 | Aveces450 |
+  | RafaCalvad720 | YaeraHora |
+  | RafaCalvad721 | NoesHora |
+  | RafaCalvad722 | SiEsHora |
+  | RafaCalvad723 | Aveces456 |
+  | RafaCalvad724 | Aveces459 |
+  | RafaCalvad725 | Aveces450 |
 
 Scenario Outline: login successfull
   Given url "https://api.demoblaze.com"
@@ -52,12 +52,12 @@ Scenario Outline: login successfull
   * if (statusCode== 500) karate.log("Servidor no Responde")
   Examples:
   | username | password |
-  | RafaCalvad320 | YaeraHora |
-  | RafaCalvad325 | NoesHora |
-  | RafaCalvad324 | SiEsHora |
-  | RafaCalvad326 | Aveces456 |
-  | RafaCalvad327 | Aveces459 |
-  | RafaCalvad328 | Aveces450 |
+  | RafaCalvad720 | YaeraHora |
+  | RafaCalvad721 | NoesHora |
+  | RafaCalvad722 | SiEsHora |
+  | RafaCalvad723 | Aveces456 |
+  | RafaCalvad724 | Aveces459 |
+  | RafaCalvad725 | Aveces450 |
 
   
 Scenario Outline: login wrong password
@@ -74,9 +74,9 @@ Scenario Outline: login wrong password
   * if (statusCode== 500) karate.log("Servidor no Responde")
   Examples:
   | username | password |
-  | RafaCalvad320 | YaeraHora4 |
-  | RafaCalvad325 | NoesHora4 |
-  | RafaCalvad324 | SiEsHora4 |
-  | RafaCalvad326 | Aveces4564 |
-  | RafaCalvad327 | Aveces4594|
-  | RafaCalvad328 | Aveces4504 |
+  | RafaCalvad720 | YaeraHra |
+  | RafaCalvad721 | NoesHoa |
+  | RafaCalvad722 | SiEsHoa |
+  | RafaCalvad723 | Aveces56 |
+  | RafaCalvad724 | Aveces59 |
+  | RafaCalvad725 | aveces50 ||
